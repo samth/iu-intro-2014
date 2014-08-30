@@ -65,6 +65,10 @@
 )
 
 (pslide
+ #:go (coord .5 .5 'cc)
+ (bitmap "lastofus.jpg"))
+
+(pslide
  #:go (left 1)
  (t/quat "Typed Racket" size1)
 
@@ -124,11 +128,13 @@
  (bitmap plt-background-path)
 
  #:go (coord .5 .4 'cc)
- (t/kau "Thank You!" size1)
+ (t/kau "Come talk to me!" size1)
 
 
  #:go (coord .5 .6 'cc)
  (t/inc "samth@cs.indiana.edu" size2)
  #:go (coord .5 .7 'cc)
  (t/inc "samth.github.io" size2)
+ #:go (coord .5 .8 'cc)
+ (t/inc "Lindley 230C" size2)
 )
